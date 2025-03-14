@@ -5,7 +5,7 @@ from console import DBG_PRINT
 class MyWidget(QWidget):
     def __init__(self):
         super().__init__()
-        self.widget_name = "MyWidget A"
+        self.widget_name = "MyWidget"
         self.init_ui()
         DBG_PRINT(f"{self.widget_name}", tag="__init__")
 
